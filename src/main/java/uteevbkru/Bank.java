@@ -36,6 +36,8 @@ public class Bank {
 		finally{ bankLock.unlock();	}
 	}
 	
+	//fgh
+	
 	public synchronized void transferAnotherWay(int from, int to, double amound) 
 		throws InterruptedException
 	{				
